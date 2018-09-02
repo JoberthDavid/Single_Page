@@ -1,0 +1,340 @@
+@font-face {
+
+	font-family: SocialType;
+	src: url('../img/SocialType.ttf');
+
+}
+
+html, body {
+
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+body {
+	text-align: center;
+	background-color: #3C3C3B;
+}
+
+header {
+
+	background-color: #3C3C3B;
+
+}
+
+section {
+
+	width: 400px;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+.img {
+
+	width: 250px;
+	margin: auto;
+	border-radius: 250px;
+	display: block;
+
+}
+
+ul {
+
+	list-style: none;
+	padding: 0px;
+
+}
+
+li {
+
+	font-size: 14px;
+
+}
+
+section a {
+
+	color: black;
+
+}
+
+iframe {
+
+	margin-left: 20px;
+	padding-top: 50px;
+	margin: auto;
+
+}
+
+section figcaption {
+
+	font-size: 12px;
+	margin-left: 20px;
+	font-size: 14px;
+	padding-bottom: 50px;
+
+}
+
+footer {
+
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+	color: black;
+	font-size: 14px;
+
+}
+
+.logo {
+
+	position: absolute;
+	width: 250px;
+	margin-left: -125px;
+	z-index: 1;
+
+}
+
+.logotipo {
+
+	display: inline-block;
+
+}
+
+.navigation {
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.navigation ul {
+
+	margin-top: 0px;
+	text-align: right;
+
+}
+
+.navigation li {
+
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #3C3C3B;
+
+}
+
+#rodape .navigation li {
+
+	background-color: white;
+
+}
+
+#rodape .navigation a:hover {
+
+	color: #FDCC00;
+
+}
+
+.navigation a {
+
+    color: #FDCC00;
+    text-decoration: none;
+
+}
+
+#rodape .navigation a {
+
+	color: black;
+
+}
+
+.inicio {
+
+	width: 100%;
+	color: white;
+	text-transform: uppercase;
+	height: 700px;
+
+}
+
+.sobre {
+
+	height: 750px;
+
+}
+
+.depoimentos {
+
+	height: 500px;
+	padding-bottom: 50px;
+
+}
+
+.sobre, .depoimentos {
+
+	width: 100%;
+	background-color: white;
+	padding-top: 50px;
+	font-size: 18px;
+
+}
+
+.sobre h2, .portfolio h2 {
+
+	padding-top: 10px;
+	padding-bottom: 0px;
+
+}
+
+hr {
+
+	width: 200px;
+	margin-bottom: 20px;
+
+}
+
+.portfolio h2, hr {
+
+	color: #FDCC00;;
+
+}
+
+.sobre #conteudo {
+
+	padding-top: 0px;
+	margin: auto;
+	width: 560px;
+	text-align: justify;
+	line-height: 28px;
+
+}
+
+.portfolio {
+
+	width: 100%;
+	padding-top: 30px;
+
+}
+
+footer h4 {
+
+	display: inline-block;
+	vertical-align: super;
+
+}
+
+
+h1 {
+
+	font-size: 36px;
+
+}
+
+h2 {
+
+	font-size: 18px;
+
+}
+
+#capa {
+
+	width: 100%;
+	height: 700px;
+	z-index: -1;
+	opacity: 0.2;
+
+}
+
+.miniatura {
+
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 60px;
+	background-size: contain;
+
+}
+
+.blackbox {
+
+	width: 100%;
+	height: 67%;
+	background-color: #B70D7F;
+	opacity: 0;
+	padding-top: 50%;
+
+}
+
+.blackbox:hover{
+
+	opacity: 0.5;
+
+}
+
+.blackbox-text h1 {
+
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 0;
+
+}
+
+.blackbox-text h2 {
+
+	text-transform: none;
+	font-weight: 100;
+	margin-top: 0;
+
+}
+
+.social-icons {
+
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+
+#instagram:hover {
+
+	border-radius: 25px;
+	background-color: #FDCC00;
+
+}
+
+#email:hover  {
+
+	background-color: #FDCC00;
+
+}
+
+.contato {
+
+	display: inline-block;
+	height: 25px;
+
+}
+
+.instagram {
+
+	width: 100%;
+	vertical-align: middle;
+	font-size: 0;
+
+}
+
+.instagram iframe {
+
+	padding: 0;
+
+}
