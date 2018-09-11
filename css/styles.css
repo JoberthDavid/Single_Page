@@ -93,7 +93,8 @@ footer {
 .logo {
 
 	position: absolute;
-	width: 250px;
+	width: 300px;
+	margin-top: 350px;
 	margin-left: -125px;
 	z-index: 1;
 
